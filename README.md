@@ -2,6 +2,7 @@
 这是本人学习iOS app开发第一个练手项目
 
 最终效果图：   
+![image](.\LoverFinder\screnshot\Simulator Screen Shot Sep 4, 2016, 15.43.08.png)
 
 主要学习了以下内容：    
 1.  使用storyboard进行UI布局  
@@ -13,8 +14,8 @@
   (4)  UISlider   
   (5)  UISwitch  
   (6)  UITextView  
-4.  隐藏键盘
-第一步，在UIViewController中UITextFieldDelegate接口中的textFieldShouldReturn方法
+4.  隐藏键盘   
+  第一步，在UIViewController中UITextFieldDelegate接口中的textFieldShouldReturn方法
 ```` 
 class ViewController: UIViewController,UITextFieldDelegate {
   ......
@@ -25,16 +26,15 @@ class ViewController: UIViewController,UITextFieldDelegate {
   }
 }
 ```` 
-第二步，注册UITextField控件的delegate
+  第二步，注册UITextField控件的delegate
 ````  
 override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
     self.name.delegate = self
 }
-````  
-
-5.   由出生日期计算年龄
+````        
+5.    由出生日期计算年龄
 ````  
 let gregorian = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
 let now = NSDate.init()
