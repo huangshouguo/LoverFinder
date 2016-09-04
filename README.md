@@ -8,10 +8,10 @@
 1.  使用storyboard进行UI布局  
 2.  storyboard制作的UI控件与ViewController进行关联   
 3.  学会使用常用view    
-  (1)  UILabel
-  (2)  UITextField    
-  (3)  UISegmentedControl   
-  (4)  UISlider   
+  (1)  UILabel    
+  (2)  UITextField  
+  (3)  UISegmentedControl      
+  (4)  UISlider     
   (5)  UISwitch  
   (6)  UITextView  
 4.  隐藏键盘   
