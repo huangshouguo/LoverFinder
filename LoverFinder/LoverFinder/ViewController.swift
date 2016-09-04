@@ -49,9 +49,9 @@ class ViewController: UIViewController,UITextFieldDelegate {
         
         let strGender = self.gender.selectedSegmentIndex == 0 ? "高富帅":"白富美"
         
-        let gregroid = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
+        let gregorian = NSCalendar(calendarIdentifier: NSCalendarIdentifierGregorian)
         let now = NSDate.init()
-        let component = gregroid?.components(NSCalendarUnit.Year, fromDate: self.birthday.date, toDate: now, options: NSCalendarOptions(rawValue: 0))
+        let component = gregorian?.components(NSCalendarUnit.Year, fromDate: self.birthday.date, toDate: now, options: NSCalendarOptions(rawValue: 0))
         let age = component?.year
         let strAge = "\(age!)岁"
         
