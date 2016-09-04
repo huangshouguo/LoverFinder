@@ -2,7 +2,7 @@
 这是本人学习iOS app开发第一个练手项目
 
 最终效果图：   
-![image](.\LoverFinder\screnshot\Simulator Screen Shot Sep 4, 2016, 15.43.08.png)
+![image](https://github.com/huangshouguo/LoverFinder/blob/master/LoverFinder/screenshot/Simulator%20Screen%20Shot%20Sep%204%2C%202016%2C%2015.43.08.png)  
 
 主要学习了以下内容：    
 1.  使用storyboard进行UI布局  
